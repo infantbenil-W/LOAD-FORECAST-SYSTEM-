@@ -19,9 +19,8 @@ import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
-import matplotlib
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
+
+
 
 
 FEATURES = [
